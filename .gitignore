@@ -1,0 +1,11 @@
+.next
+.env
+.env.remote
+tmp_*
+.DS_Store
+node_modules
+sam_post.yaml
+template-packaged.yaml
+*-packaged.yaml
+build/
+packaged.yaml
