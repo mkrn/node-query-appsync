@@ -54,6 +54,8 @@ The following environment variables are used. They are pre-set by default in Lam
 - AWS_SECRET_ACCESS_KEY
 - AWS_SESSION_TOKEN
 
+- GRAPHQL_API Needs to be set in the environment (AppSync endpoint)
+
 ## Configuring Lambda permissions to AppSync
 
 1) Use AWS_IAM authentication type with your GraphQL API.
