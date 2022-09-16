@@ -109,6 +109,11 @@ CloudFormation example (YAML):
                   - !Sub "${GraphQLApi}/types/Mutation/*"
 ```
 
+## Test
+TODO: Add some real tests
+
+export GRAPHQL_API=https://YOURENDPOINT.appsync-api.us-east-1.amazonaws.com/graphql && export AWS_REGION=us-east-1 && export AWS_ACCESS_KEY_ID=YOURKEYID && export AWS_SECRET_ACCESS_KEY=YOURSECRET && node test/test.js
+
 ## Limitations
 
 Use with Node 8+
